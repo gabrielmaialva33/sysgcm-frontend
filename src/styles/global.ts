@@ -8,9 +8,12 @@ export default createGlobalStyle`
     outline: 0;
   }
 
-  body {
-    background: #ffdd;
-    color: #000;
+  html, body, #root {
+    height: 100%;
+
+    background-size: cover;
+    color:#000;
+
     -webkit-font-smoothing: antialiased;
   }
 
@@ -25,5 +28,9 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
+  }
+
+  ul {
+    list-style: none;
   }
 `
